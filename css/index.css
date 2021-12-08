@@ -1,0 +1,192 @@
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  } */
+
+html {
+  background-color: rgb(221, 217, 217);
+}
+
+body {
+  height: 100vh;
+  max-height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  background-size: 100% 40%;
+  background-image: url(../images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: white;
+  font-family: "Red Hat Display", sans-serif;
+  width: 350px;
+}
+
+header {
+  background-image: url(../images/illustration-hero.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 170px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  padding-bottom: 0.2rem;
+}
+
+.h3 {
+  margin-top: 0px;
+  margin-bottom: 2.5px;
+}
+
+.p {
+  padding: 0 0.3rem;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 2.5px;
+  margin-bottom: 0px;
+}
+
+
+/* || Containers */
+.h-space {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.wrapper {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  padding: 1rem 1.2rem;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+
+
+/* || Components */
+
+.btn {
+  border: none;
+  border-radius: 9px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  width: 100%;
+}
+
+.music {
+  margin-right: 1rem;
+}
+
+
+/* || Colors */
+
+.dark-blue {
+  color: hsl(223, 47%, 23%);
+}
+
+.disabled {
+  color: hsl(224, 23%, 55%);
+}
+
+
+/* || Fonts */
+
+.normal {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bolder {
+  font-weight: 900;
+}
+
+
+/* || Structure */
+
+.cancel {
+  margin: 1.2rem auto 2rem;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.change {
+  margin-left: auto;
+  color: hsl(245, 75%, 52%);
+  font-size: 13px;
+}
+
+.round-corner {
+  border-radius: 15px;
+}
+
+.top {
+  padding-top: 1rem;
+}
+
+.v-space {
+  margin: 2rem auto;
+} 
+/* 
+v-space means vertical direction-space: my naming for margins to the side. would work on my namings
+and of course, h-space means horizontal direction-space
+*/
+
+
+/* || Skins */
+
+.btn-primary {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+}
+
+
+/* || Hover States */
+
+.btn:hover {
+  background-color: hsl(245, 75%, 72%);
+  cursor: pointer;
+}
+
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
+.change:hover {
+  color: hsl(245, 75%, 72%);
+  text-decoration: none;
+}
+
+
+/* || Media Queries */
+
+@media screen and (min-width: 600px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 45%;
+  }
+}
+  
